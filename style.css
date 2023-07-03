@@ -89,8 +89,7 @@
     transition: var(--transition);
 }
 
-.calc-keys input,
-textarea {
+.calc-keys input {
     background-color: var(--key-background);
     color: var(--key-color-bottom);
     border: 2px solid var(--key-background);
@@ -98,6 +97,25 @@ textarea {
     box-shadow: 1px 1.5px 1px var(--key-shadow);
     margin: 10px;
     height: 35px;
+    transition: var(--transition);
+}
+
+.conv {
+    background-color: var(--background-dark);
+    border-radius: 10px;
+    padding: 4px;
+    transition: var(--transition);
+}
+
+.conv input,
+textarea {
+    background-color: var(--key-background);
+    color: var(--key-color-bottom);
+    border: 2px solid var(--key-background);
+    border-radius: 5px;
+    box-shadow: 1px 1.5px 1px var(--key-shadow);
+    margin: 4px;
+    height: 30px;
     transition: var(--transition);
 }
 

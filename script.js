@@ -150,3 +150,10 @@ function conv3() {
     var gramo = kilo.value * 1000;
     resultado.textContent = gramo;
 }
+
+function conv4() {
+    var metro = document.getElementById("metro");
+    var resultado = document.getElementById("centimetro");
+    var centimetro = metro.value * 100;
+    resultado.textContent = centimetro;
+}
