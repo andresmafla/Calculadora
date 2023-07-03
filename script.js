@@ -143,3 +143,10 @@ function conv2() {
     var bar = pascal.value * 0.00001;
     resultado.textContent = bar;
 }
+
+function conv3() {
+    var kilo = document.getElementById("kilo");
+    var resultado = document.getElementById("gramo");
+    var gramo = kilo.value * 1000;
+    resultado.textContent = gramo;
+}
