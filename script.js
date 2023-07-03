@@ -132,8 +132,18 @@ function myFunction_set(val) {
 function conv1() {
     var celsius = document.getElementById("celsius");
     var resultado = document.getElementById("fahrenheit");
+
     celsius = parseFloat(celsius.value);
     var fahrenheit = (celsius * 9 / 5) + 32;
 
     resultado.textContent = fahrenheit;
+}
+
+function conv2() {
+    var pascal = document.getElementById("pascal");
+    var resultado = document.getElementById("bar");
+
+    var bar = pascal.value * 0.00001;
+
+    resultado.textContent = bar;
 }
