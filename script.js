@@ -128,3 +128,12 @@ function myFunction_set(val) {
     }
 
 }
+
+function conv1() {
+    var celsius = document.getElementById("celsius");
+    var resultado = document.getElementById("fahrenheit");
+    celsius = parseFloat(celsius.value);
+    var fahrenheit = (celsius * 9 / 5) + 32;
+
+    resultado.textContent = fahrenheit;
+}
